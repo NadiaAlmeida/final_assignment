@@ -1,0 +1,969 @@
+﻿Movie IMDb ID,Movie Internal ID,Title,Year,IMDb Votes (in thousands),IMDb Score,Gender of Protagonist,Bechdel Test
+tt0230011,Movie-001,Atlantis: The Lost Empire,2001,112,6.9,M,Barely
+tt0275277,Movie-002,Cowboy Bebop: The Movie,2001,46,7.8,M,Barely
+tt0173840,Movie-003,Final Fantasy: The Spirits Within ,2001,81,6.4,F,No
+tt0268397,Movie-004,Jimmy Neutron: Boy Genius,2001,34,6,M,Barely
+tt0291350,Movie-005,Millennium Actress,2001,27,7.8,F,Yes
+tt0198781,Movie-006,"Monsters, Inc.",2001,855,8.1,M,No
+tt0126029,Movie-007,Shrek,2001,641,7.9,M,No
+tt0245429,Movie-008,Spirited Away,2001,700,8.6,F,Yes
+tt0243017,Movie-009,Waking Life,2001,63,7.7,M,No
+tt0268380,Movie-010,Ice Age,2002,470,7.5,M,No
+tt0275847,Movie-011,Lilo & Stitch ,2002,178,7.3,M/F,Yes
+tt0166813,Movie-012,Spirit: Stallion of the Cimarron,2002,74,7.2,M,No
+tt0347618,Movie-013,The Cat Returns,2002,53,7.2,F,Yes
+tt0282120,Movie-014,The Wild Thornberrys Movie ,2002,14,6.7,F,Barely
+tt0133240,Movie-015,Treasure Planet,2002,114,7.2,M,Barely
+tt0328880,Movie-016,Brother Bear,2003,107,6.8,M,No
+tt0266543,Movie-017,Finding Nemo,2003,1011,8.2,M,Barely
+tt0165982,Movie-018,Sinbad: Legend of the Seven Seas,2003,53,6.7,M,No
+tt0286244,Movie-019,The Triplets of Belleville,2003,54,7.8,F,N/A
+tt0388473,Movie-020,Tokyo Godfathers,2003,38,7.8,M/F,Yes
+tt0347246,Movie-021,Ghost in the Shell 2: Innocence,2004,38,7.5,M,No
+tt0299172,Movie-022,Home on the Range ,2004,23,5.4,F,Barely
+tt0347149,Movie-023,Howl's Moving Castle,2004,375,8.2,F,Yes
+tt0307453,Movie-024,Shark Tale,2004,179,6,M,No
+tt0298148,Movie-025,Shrek 2,2004,449,7.3,M,Yes
+tt0317705,Movie-026,The Incredibles,2004,703,8.1,M,Yes
+tt0381348,Movie-027,The Place Promised in Our Early Days ,2004,14,6.9,M,No
+tt0338348,Movie-028,The Polar Express,2004,201,6.6,M,No
+tt0371606,Movie-029,Chicken Little ,2005,91,5.7,M,No
+tt0121164,Movie-030,Corpse Bride ,2005,263,7.4,M,Yes
+tt0443536,Movie-031,Hoodwinked,2005,61,6.5,F,Barely
+tt0351283,Movie-032,Madagascar ,2005,392,6.9,M,No
+tt0358082,Movie-033,Robots,2005,143,6.4,M,No
+tt0361089,Movie-034,Valiant,2005,23,5.5,M,No
+tt0312004,Movie-035,Wallace and Gromit: The Curse of the Were-Rabbit ,2005,133,7.5,M,No
+tt0405296,Movie-036,A Scanner Darkly,2006,111,7.1,M,No
+tt0371552,Movie-037,Astérix and the Vikings,2006,12,6,M,No
+tt0414853,Movie-038,Barnyard,2006,31,5.6,M,Barely
+tt0317219,Movie-039,Cars,2006,403,7.2,M,No
+tt0381971,Movie-040,Curious George,2006,17,6.5,M,No
+tt0424095,Movie-041,Flushed Away ,2006,123,6.6,M,No
+tt0366548,Movie-042,Happy Feet,2006,182,6.4,M,Barely
+tt0438097,Movie-043,Ice Age 2: The Meltdown ,2006,272,6.8,M,No
+tt0385880,Movie-044,Monster House ,2006,114,6.6,M,Barely
+tt0400717,Movie-045,Open Season,2006,94,6.1,M,No
+tt0327084,Movie-046,Over the Hedge,2006,171,6.7,M,Yes
+tt0851578,Movie-047,Paprika,2006,80,7.7,F,No
+tt0495596,Movie-048,Tales from Earthsea,2006,39,6.4,M,No
+tt0831888,Movie-049,Tekkonkinkreet,2006,13,7.5,M,No
+tt0429589,Movie-050,The Ant Bully ,2006,39,5.8,M,No
+tt0808506,Movie-051,The Girl Who Leapt Through Time,2006,65,7.7,F,Yes
+tt0983213,Movie-052,5 Centimeters per Second,2007,56,7.5,M,Barely
+tt0858486,Movie-053,Battle for Terra,2007,12,6.5,F,No
+tt0389790,Movie-054,Bee Movie,2007,157,6.1,M,No
+tt0442933,Movie-055,Beowulf,2007,167,6.3,M,No
+tt0923811,Movie-056,Evangelion: 1.0 You Are (Not) Alone,2007,23,7.6,M,Yes
+tt0396555,Movie-057,Meet the Robinsons ,2007,97,6.8,M,No
+tt0808417,Movie-058,Persepolis,2007,93,8,F,Yes
+tt0382932,Movie-059,Ratatouille ,2007,695,8.1,M,No
+tt0413267,Movie-060,Shrek the Third,2007,299,6.1,M,Barely
+tt0423294,Movie-061,Surf's Up,2007,77,6.7,M,No
+tt0462538,Movie-062,The Simpsons Movie,2007,324,7.3,M,Barely
+tt0453556,Movie-063,TMNT,2007,64,6.2,M,No
+tt0397892,Movie-064,Bolt,2008,205,6.9,M,No
+tt0944834,Movie-065,Dragon Hunters,2008,13,6.6,M,No
+tt0347246,Movie-066,Ghost in the Shell 2.0,2008,14,7.9,F,Barely
+tt0451079,Movie-067,Horton Hears a Who!,2008,138,6.8,M,No
+tt0465502,Movie-068,Igor,2008,23,5.9,M,No
+tt0441773,Movie-069,Kung Fu Panda,2008,453,7.6,M,Barely
+tt0479952,Movie-070,Madagascar: Escape 2 Africa,2008,221,6.7,M,No
+tt0876563,Movie-071,Ponyo,2008,138,7.6,F,Yes
+tt0482603,Movie-072,Space Chimps,2008,12,4.5,M,No
+tt0420238,Movie-073,The Tale of Despereaux,2008,38,6.1,M,Barely
+tt0910970,Movie-074,WALL·E,2008,1077,8.4,M,N/A
+tt1185616,Movie-075,Waltz with Bashir,2008,57,8,M,N/A
+tt0472033,Movie-076,9,2009,138,7,M,No
+tt1067106,Movie-077,A Christmas Carol,2009,113,6.8,M,No
+tt0375568,Movie-078,Astro Boy,2009,36,6.3,M,Barely
+tt0844471,Movie-079,Cloudy with a Chance of Meatballs,2009,224,7,M,No
+tt0327597,Movie-080,Coraline,2009,217,7.7,F,Yes
+tt0432283,Movie-081,Fantastic Mr. Fox,2009,223,7.9,M,No
+tt1080016,Movie-082,Ice Age 3: Dawn of the Dinosaurs,2009,239,6.9,M,No
+tt0892782,Movie-083,Monsters vs. Aliens,2009,158,6.5,F,Barely
+tt0762125,Movie-084,Planet 51,2009,54,6,M,No
+tt1474276,Movie-085,Summer Wars,2009,29,7.4,M,Yes
+tt0780521,Movie-086,The Princess and the Frog,2009,138,7.1,F,Yes
+tt0485601,Movie-087,The Secret of Kells,2009,35,7.6,M,No
+tt1049413,Movie-088,Up,2009,1007,8.3,M,No
+tt1673702,Movie-089,A Cat in Paris,2010,11,6.9,M,Barely
+tt1213012,Movie-090,Alpha and Omega,2010,14,5.2,M,No
+tt1323594,Movie-091,Despicable Me,2010,530,7.6,M,Yes
+tt0892769,Movie-092,How to Train Your Dragon,2010,715,8.1,M,Barely
+tt1219342,Movie-093,Legend of the Guardians: The Owls of Ga'Hoole,2010,82,6.9,M,No
+tt1001526,Movie-094,Megamind,2010,251,7.3,M,No
+tt0892791,Movie-095,Shrek Forever After,2010,199,6.3,M,No
+tt0398286,Movie-096,Tangled,2010,437,7.8,F,Yes
+tt0775489,Movie-097,The Illusionist,2010,35,7.5,M,N/A
+tt1568921,Movie-098,The Secret World of Arrietty,2010,90,7.6,F,Yes
+tt0435761,Movie-099,Toy Story 3,2010,809,8.3,M,Yes
+tt1302067,Movie-100,Yogi Bear,2010,22,4.6,M,No
+tt0961097,Movie-101,A Monster in Paris,2011,21,6.7,M,No
+tt1430607,Movie-102,Arthur Christmas,2011,58,7.1,M,No
+tt1216475,Movie-103,Cars 2,2011,180,6.2,M,No
+tt1839494,Movie-104,Children Who Chase Lost Voices,2011,15,7.1,F,Yes
+tt1798188,Movie-105,From Up on Poppy Hill,2011,42,7.4,F,Yes
+tt0377981,Movie-106,Gnomeo & Juliet,2011,55,5.9,M/F,Barely
+tt0844993,Movie-107,Hoodwinked Too! Hood vs. Evil,2011,13,4.7,F,Barely
+tt1411704,Movie-108,Hop,2011,34,5.4,M,No
+tt1302011,Movie-109,Kung Fu Panda 2,2011,275,7.2,M,Barely
+tt1305591,Movie-110,Mars Needs Moms,2011,22,5.4,M,No
+tt0448694,Movie-111,Puss in Boots,2011,155,6.6,M,No
+tt1192628,Movie-112,Rango,2011,256,7.2,M,Barely
+tt1436562,Movie-113,Rio,2011,222,6.9,M,No
+tt0983193,Movie-114,The Adventures of Tintin,2011,228,7.3,M,No
+tt1449283,Movie-115,Winnie the Pooh,2011,24,7.2,M,No
+tt1217209,Movie-116,Brave,2012,400,7.1,F,Yes
+tt1816518,Movie-117,Ernest and Célestine,2012,20,7.8,M/F,No
+tt0765446,Movie-118,Escape from Planet Earth,2012,26,5.9,M,Barely
+tt1142977,Movie-119,Frankenweenie,2012,105,6.9,M,No
+tt0837562,Movie-120,Hotel Transylvania,2012,247,7.1,M,Barely
+tt1667889,Movie-121,Ice Age: Continental Drift,2012,205,6.5,M,No
+tt2396224,Movie-122,It's Such a Beautiful Day,2012,13,8.2,M,No
+tt1277953,Movie-123,Madagascar 3: Europe's Most Wanted,2012,176,6.8,M,No
+tt1623288,Movie-124,ParaNorman,2012,101,7,M,Yes
+tt1446192,Movie-125,Rise of the Guardians,2012,170,7.3,M,No
+tt1217213,Movie-126,Secret of the Wings,2012,12,7.1,F,Yes
+tt1482459,Movie-127,The Lorax,2012,109,6.4,M,No
+tt1430626,Movie-128,The Pirates! Band of Misfits,2012,48,6.7,M,No
+tt2140203,Movie-129,Wolf Children,2012,44,8.1,F,Yes
+tt1772341,Movie-130,Wreck-It Ralph,2012,409,7.7,M,Yes
+tt1985966,Movie-131,Cloudy with a Chance of Meatballs 2,2013,100,6.4,M,Yes
+tt1690953,Movie-132,Despicable Me 2,2013,390,7.3,M,Yes
+tt2263944,Movie-133,Dragon Ball Z: Battle of Gods,2013,28,7.2,M,Barely
+tt0848537,Movie-134,Epic,2013,104,6.6,F,Yes
+tt1621039,Movie-135,Free Birds,2013,24,5.8,M,No
+tt2294629,Movie-136,Frozen,2013,608,7.5,F,Yes
+tt2668134,Movie-137,Harlock: Space Pirate,2013,12,6.4,M,No
+tt1453405,Movie-138,Monsters University,2013,348,7.3,M,No
+tt1691917,Movie-139,Planes,2013,45,5.7,M,No
+tt0481499,Movie-140,The Croods,2013,209,7.2,M,Yes
+tt2591814,Movie-141,The Garden of Words,2013,42,7.5,M,No
+tt2576852,Movie-142,The Tale of the Princess Kaguya,2013,45,8,F,Yes
+tt2013293,Movie-143,The Wind Rises,2013,82,7.8,M,No
+tt1860353,Movie-144,Turbo,2013,94,6.4,M,Barely
+tt3759416,Movie-145,Astérix and Obelix: Mansion of the Gods,2014,13,6.9,M,No
+tt2245084,Movie-146,Big Hero 6,2014,445,7.8,M,Barely
+tt1646971,Movie-147,How to Train Your Dragon 2,2014,325,7.8,M,No
+tt0864835,Movie-148,Mr. Peabody & Sherman,2014,68,6.8,M,No
+tt1911658,Movie-149,Penguins of Madagascar,2014,88,6.7,M,No
+tt2980706,Movie-150,Planes: Fire & Rescue,2014,18,6,M,No
+tt2357291,Movie-151,Rio 2,2014,88,6.3,M,Barely
+tt1865505,Movie-152,Song of the Sea,2014,57,8.1,M,Yes
+tt2262227,Movie-153,The Book of Life,2014,70,7.2,M,Barely
+tt0787474,Movie-154,The Boxtrolls,2014,57,6.8,M,No
+tt3717532,Movie-155,The Last: Naruto the Movie,2014,14,7.7,M,No
+tt1821658,Movie-156,The Nut Job,2014,28,5.7,M,Barely
+tt3398268,Movie-157,When Marnie Was There,2014,39,7.7,F,Yes
+tt2401878,Movie-158,Anomalisa,2015,71,7.2,M,No
+tt3576728,Movie-159,Bilal: A New Breed of Hero,2015,23,7.9,M,No
+tt2224026,Movie-160,Home,2015,100,6.6,M,Yes
+tt2510894,Movie-161,Hotel Transylvania 2,2015,123,6.7,M,Barely
+tt2096673,Movie-162,Inside Out,2015,682,8.2,F,Yes
+tt2293640,Movie-163,Minions,2015,228,6.4,M,Barely
+tt2872750,Movie-164,Shaun the Sheep Movie,2015,40,7.3,M,N/A
+tt4191054,Movie-165,Strange Magic,2015,12,5.8,F,Yes
+tt4272866,Movie-166,The Boy and the Beast,2015,23,7.6,M,No
+tt1979388,Movie-167,The Good Dinosaur,2015,112,6.7,M,Barely
+tt1754656,Movie-168,The Little Prince,2015,61,7.7,F,Yes
+tt2452042,Movie-169,The Peanuts Movie,2015,45,7,M,Yes
+tt5323662,Movie-170,A Silent Voice,2016,74,8.1,M,Yes
+tt4853102,Movie-171,Batman: The Killing Joke,2016,55,6.4,M,No
+tt2277860,Movie-172,Finding Dory,2016,265,7.3,F,Yes
+tt5923962,Movie-173,Gantz: O,2016,15,7.1,M,No
+tt3416828,Movie-174,Ice Age 5: Collision Course,2016,65,5.7,M,Barely
+tt4302938,Movie-175,Kubo and the Two Strings,2016,126,7.8,M,Yes
+tt2267968,Movie-176,Kung Fu Panda 3,2016,151,7.1,M,Barely
+tt2261287,Movie-177,Leap!,2016,22,6.8,F,Yes
+tt3521164,Movie-178,Moana,2016,317,7.6,F,Yes
+tt2321405,Movie-179,My Life as a Zucchini,2016,25,7.7,M,Yes
+tt2865120,Movie-180,Ratchet & Clank,2016,11,5.5,M,No
+tt1700841,Movie-181,Sausage Party,2016,190,6.1,M,Yes
+tt3470600,Movie-182,Sing,2016,160,7.1,M,No
+tt4624424,Movie-183,Storks,2016,61,6.8,M,No
+tt1985949,Movie-184,The Angry Birds Movie,2016,90,6.3,M,No
+tt3666024,Movie-185,The Red Turtle,2016,34,7.5,M,No
+tt2709768,Movie-186,The Secret Life of Pets,2016,197,6.5,M,No
+tt1679335,Movie-187,Trolls,2016,80,6.5,F,Yes
+tt5311514,Movie-188,Your name.,2016,246,8.4,M/F,Yes
+tt2948356,Movie-189,Zootopia,2016,478,8,F,Yes
+tt6556890,Movie-190,Batman and Harley Quinn,2017,13,5.9,M,No
+tt2091256,Movie-191,Captain Underpants: The First Epic Movie,2017,28,6.2,M,No
+tt3606752,Movie-192,Cars 3,2017,92,6.7,M,Barely
+tt2380307,Movie-193,Coco,2017,470,8.4,M,Yes
+tt3469046,Movie-194,Despicable Me 3,2017,128,6.3,M,Yes
+tt3411444,Movie-195,Ferdinand,2017,55,6.7,M,Barely
+tt3262342,Movie-196,Loving Vincent,2017,56,7.8,M,No
+tt6336356,Movie-197,Mary and the Witch's Flower,2017,14,6.8,F,Yes
+tt5776208,Movie-198,Resident Evil: Vendetta,2017,13,6.2,M,No
+tt2398241,Movie-199,Smurfs: The Lost Village,2017,21,6,M,Yes
+tt3874544,Movie-200,The Boss Baby,2017,122,6.3,M,No
+tt3901826,Movie-201,The Breadwinner,2017,25,7.7,F,Yes
+tt4877122,Movie-202,The Emoji Movie,2017,62,3.3,M,No
+tt4116284,Movie-203,The Lego Batman Movie,2017,144,7.3,M,Yes
+tt3014284,Movie-204,The Lego Ninjago Movie,2017,25,6,M,No
+tt7167630,Movie-205,Batman: Gotham by Gaslight,2018,16,6.7,M,No
+tt7961060,Movie-206,Dragon Ball Super: Broly,2018,26,7.8,M,No
+tt4701724,Movie-207,Early Man,2018,22,6.1,M,No
+tt5220122,Movie-208,Hotel Transylvania 3: Summer Vacation,2018,70,6.3,M,No
+tt7236034,Movie-209,I Want to Eat Your Pancreas,2018,14,8.1,M,Barely
+tt3606756,Movie-210,Incredibles 2,2018,282,7.6,M,Yes
+tt5104604,Movie-211,Isle of Dogs,2018,162,7.8,M,No
+tt6900448,Movie-212,Mirai,2018,15,7,M,No
+tt7133686,Movie-213,Next Gen,2018,17,6.6,F,Yes
+tt5848272,Movie-214,Ralph Breaks the Internet,2018,153,7,M,Yes
+tt2296777,Movie-215,Sherlock Gnomes,2018,12,5.2,M,Barely
+tt6182908,Movie-216,Smallfoot,2018,39,6.6,M,Yes
+tt4633694,Movie-217,Spider-Man: Into the Spider-Verse,2018,481,8.4,M,Barely
+tt7424200,Movie-218,Teen Titans Go! To the Movies,2018,19,6.8,M,Barely
+tt2709692,Movie-219,The Grinch,2018,68,6.3,M,Barely
+tt6193408,Movie-220,A Shaun the Sheep Movie: Farmageddon,2019,13,6.8,M,No
+tt6324278,Movie-221,Abominable,2019,37,7,F,Yes
+tt4520988,Movie-222,Frozen II,2019,163,6.8,F,Yes
+tt2386490,Movie-223,How to Train Your Dragon: The Hidden World,2019,122,7.4,M,No
+tt9806192,Movie-224,I Lost My Body,2019,32,7.5,M,No
+tt4729430,Movie-225,Klaus,2019,140,8,M,Barely
+tt6348138,Movie-226,Missing Link,2019,25,6.7,M,No
+tt5814534,Movie-227,Spies in Disguise,2019,46,6.8,M,Barely
+tt1620981,Movie-228,The Addams Family,2019,37,5.8,F,Yes
+tt6095472,Movie-229,The Angry Birds Movie 2,2019,28,6.4,M,No
+tt3513498,Movie-230,The Lego Movie 2: The Second Part,2019,63,6.6,M,Yes
+tt6105098,Movie-231,The Lion King,2019,236,6.9,M,Barely
+tt5113040,Movie-232,The Secret Life of Pets 2,2019,60,6.5,M,No
+tt1979376,Movie-233,Toy Story 4,2019,236,7.7,M,Yes
+tt9426210,Movie-234,Weathering With You,2019,36,7.5,M,Barely
+tt6428676,Movie-235,Wonder Park,2019,12,5.8,F,Yes
+tt11032374,Movie-236,Demon Slayer: Infinity Train,2020,51,8.3,M,No
+tt7146812,Movie-237,Onward,2020,139,7.4,M,Yes
+tt7488208,Movie-238,Over the Moon,2020,21,6.4,F,Yes
+tt3152592,Movie-239,Scoob!,2020,25,5.6,M,Yes
+tt2948372,Movie-240,Soul,2020,305,8.1,M,No
+tt2850386,Movie-241,The Croods 2: A New Age,2020,40,7,F,Yes
+tt5206260,Movie-242,The Willoughbys,2020,18,6.3,M,Barely
+tt6587640,Movie-243,Trolls 2: World Tour,2020,22,6.1,F,Yes
+tt5198068,Movie-244,Wolfwalkers,2020,30,8,F,Yes
+tt2953050,Movie-245,Encanto,2021,175,7.3,F,Yes
+tt8430054,Movie-246,Flee,2021,18,8,M,No
+tt12801262,Movie-247,Luca,2021,145,7.5,M,Barely
+tt5109280,Movie-248,Raya and the Last Dragon,2021,140,7.3,F,Yes
+tt7504818,Movie-249,Ron's Gone Wrong,2021,28,7.1,M,Barely
+tt6467266,Movie-250,Sing 2,2021,41,7.5,M,Yes
+tt6932874,Movie-251,The Boss Baby 2: Family Business,2021,16,5.9,M,Yes
+tt7979580,Movie-252,The Mitchells vs the Machines,2021,97,7.7,F,Yes
+tt11657662,Movie-253,The Witcher: Nightmare of the Wolf,2021,41,7.3,M,No
+tt1361336,Movie-254,Tom & Jerry: The Movie,2021,33,5.3,M,Barely
+tt6338498,Movie-255,Vivo,2021,17,6.7,M,Yes
+tt5562070,Movie-256,Wish Dragon,2021,24,7.2,M,Barely
+tt9848626,Movie-257,Hotel Transylvania: Transformania,2022,24,6,M,No
+tt11703050,Movie-258,The House,2022,16,6.8,M/F,Yes
+tt13634480,Movie-259,The Ice Age Adventures of Buck Wild,2022,14,4.3,M,No
+tt8097030,Movie-260,Turning Red,2022,119,7,F,Yes
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,

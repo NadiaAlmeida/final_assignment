@@ -1,0 +1,59 @@
+---
+title: "Plotting Assignment"
+author: "Nadia Almeida Ferreira"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Data Wrangling
+
+```{r message=FALSE, warning=FALSE}
+
+library(tidyverse)
+data_whole<- read_csv("../data/DATASET_Where are the Women An Overview of Female Representation in Popular Contemporary Animation Feature Films.csv")
+
+```
+
+
+```{r}
+#removing NA columns and renaming columns
+data_cleaned<- data_whole |>
+  drop_na() |>
+  rename(votes = `IMDb Votes (in thousands)`,
+         movie = `Movie Internal ID`) 
+```
+
+
+
+## Plots
+
+### Bad Plot
+```{r bad plot}
+library(ggplot2)
+plot_bad <- ggplot(data_cleaned, 
+                   aes(x = movie, y = votes)) +
+  geom_bar(stat = "identity", fill = "gold", color = "black") +
+  theme(plot.background = element_rect(fill = "gold1"),
+        panel.background = element_rect(fill = "gold1"))+
+  labs(x= "", y = "")
+
+plot_bad
+
+```
+One reason as to why this plot is bad is that there are no labels so without looking at the code you will not be able to understand what is represented in the plot. 
+Another reason as to why this plot is bad is that in the x axis you can't see which movie the bar belongs to because there are too many labels and they aren't rotated at any angle to make them more visible. Also the column for the movies that was used does not contain the movie title and instead is coded as i.e. "Movie-001". Therefore even if you could see the labels on the x axis they would not tell you much.
+Overall using all movies and therefore having 260 bars is too much and also just showing how many votes each movie has on IMDb is not what is relevant in this dataset. 
+
+
+### Good Plot
+
+You can also embed plots, for example:
+
+```{r }
+plot()
+```
+
