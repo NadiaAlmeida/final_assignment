@@ -20,11 +20,26 @@ data_whole<- read_csv("../data/DATASET_Where are the Women An Overview of Female
 
 
 ```{r}
-#removing NA columns and renaming columns
+#removing NA rows and renaming columns
 data_cleaned<- data_whole |>
   drop_na() |>
-  rename(votes = `IMDb Votes (in thousands)`,
-         movie = `Movie Internal ID`) 
+  rename(Votes = `IMDb Votes (in thousands)`,
+         Movie = `Movie Internal ID`,
+         Bechdel = `Bechdel Test`) 
+
+data_good_plot <- data_cleaned |>
+  data.frame()|>
+  count(`Bechdel`) 
+
+#changing the order of the bechdel answers
+data_good_plot$Bechdel <- factor(data_good_plot$Bechdel, levels = c("N/A", "No", "Barely", "Yes"))
+  
+data_good_plot<- data_good_plot |>
+  arrange(desc(Bechdel)) |>
+  mutate(Percentage = n/ sum(n) * 100,
+         y_position = cumsum(Percentage) - 0.5 * Percentage) #to align the percentages in the pie chart
+
+
 ```
 
 
@@ -35,7 +50,7 @@ data_cleaned<- data_whole |>
 ```{r bad plot}
 library(ggplot2)
 plot_bad <- ggplot(data_cleaned, 
-                   aes(x = movie, y = votes)) +
+                   aes(x = Movie, y = Votes)) +
   geom_bar(stat = "identity", fill = "gold", color = "black") +
   theme(plot.background = element_rect(fill = "gold1"),
         panel.background = element_rect(fill = "gold1"))+
@@ -44,16 +59,43 @@ plot_bad <- ggplot(data_cleaned,
 plot_bad
 
 ```
+
 One reason as to why this plot is bad is that there are no labels so without looking at the code you will not be able to understand what is represented in the plot. 
 Another reason as to why this plot is bad is that in the x axis you can't see which movie the bar belongs to because there are too many labels and they aren't rotated at any angle to make them more visible. Also the column for the movies that was used does not contain the movie title and instead is coded as i.e. "Movie-001". Therefore even if you could see the labels on the x axis they would not tell you much.
-Overall using all movies and therefore having 260 bars is too much and also just showing how many votes each movie has on IMDb is not what is relevant in this dataset. 
+Overall using all movies and therefore having 260 bars is too much. Furthermore, just showing how many votes each movie has on IMDb is not what is relevant in this data set as it is assessing female representation in movies and whether or not those movies pass the Bechdel Test (two female characters interacting talking about anything other than men). 
 
 
 ### Good Plot
 
-You can also embed plots, for example:
 
-```{r }
-plot()
+
+```{r good plot}
+library(dplyr)
+library(viridis)
+plot_good <- data_good_plot |>
+  ggplot(aes(x = "", y = Percentage, fill = Bechdel)) +
+  geom_bar(stat = "identity", width = 1) + 
+  coord_polar(theta = "y") +
+  geom_segment(aes(x = 1.5, xend = 1.55, y = y_position, yend = y_position), 
+               color = "black", linewidth = 0.5) + #add lines between chart and label
+  geom_text(aes(label = paste0(Bechdel, ", ", round(Percentage, 0), "%"), y= y_position),  
+            position = position_nudge(x = 0.8),  # Move labels outside of pie
+            color = "black") +
+  scale_fill_viridis(discrete = TRUE, option = "G") +
+  theme_void() +  # Removes axis and grid lines
+  labs(title = "Bechdel Test Results", caption = "Results from across 260 movies assessing whether they pass the Bechdel Test or not.") +
+  theme(legend.position = "none") 
+
+
+plot_good
+  
+
+
 ```
+
+What makes this a good plot for starters is that relevant data from the analysis is displayed. 
+Other than that it is also good that each piece of the pie chart is accompanied by a label of what it represents and its percentage so that all the relevant information is easily found without having to look around for it. 
+Another good feature of this chart is that by using a color palette from the viridis package it can be printed in black and white and color blind people can differentiate between the colors. 
+Overall it's a simple pie chart with all the information around each part so that you do not have to search for the information far from the plot.   
+
 
