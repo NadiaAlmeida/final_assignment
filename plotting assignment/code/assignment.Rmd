@@ -51,18 +51,20 @@ data_good_plot<- data_good_plot |>
 library(ggplot2)
 plot_bad <- ggplot(data_cleaned, 
                    aes(x = Movie, y = Votes)) +
-  geom_bar(stat = "identity", fill = "gold", color = "black") +
+  geom_bar(stat = "identity", fill = "gold", color = "white") +
   theme(plot.background = element_rect(fill = "gold1"),
-        panel.background = element_rect(fill = "gold1"))+
+        panel.background = element_rect(fill = "gold1"),
+        axis.text.y = element_blank())+
   labs(x= "", y = "")
 
 plot_bad
 
 ```
 
-One reason as to why this plot is bad is that there are no labels so without looking at the code you will not be able to understand what is represented in the plot. 
+One reason as to why this plot is bad is that there are no labels so without looking at the code you will not be able to understand what is represented in the plot. Also without the values from the y axis the bars give you no information except that some are higher than others.
 Another reason as to why this plot is bad is that in the x axis you can't see which movie the bar belongs to because there are too many labels and they aren't rotated at any angle to make them more visible. Also the column for the movies that was used does not contain the movie title and instead is coded as i.e. "Movie-001". Therefore even if you could see the labels on the x axis they would not tell you much.
-Overall using all movies and therefore having 260 bars is too much. Furthermore, just showing how many votes each movie has on IMDb is not what is relevant in this data set as it is assessing female representation in movies and whether or not those movies pass the Bechdel Test (two female characters interacting talking about anything other than men). 
+The color of the bars is also a bad choice because they basically blend in with the background.
+Overall using all movies and therefore having 260 bars is too much. Furthermore, just showing how many votes each movie has on IMDb is not what is relevant in this data set as it is assessing female representation in movies and whether or not those movies pass the Bechdel Test (two female characters interacting and talking about anything other than men). 
 
 
 ### Good Plot
@@ -95,7 +97,7 @@ plot_good
 
 What makes this a good plot for starters is that relevant data from the analysis is displayed. 
 Other than that it is also good that each piece of the pie chart is accompanied by a label of what it represents and its percentage so that all the relevant information is easily found without having to look around for it. 
-Another good feature of this chart is that by using a color palette from the viridis package it can be printed in black and white and color blind people can differentiate between the colors. 
-Overall it's a simple pie chart with all the information around each part so that you do not have to search for the information far from the plot.   
+Another good feature of this chart is that by using a color palette from the viridis package it can be printed in black and white and color blind people can easily differentiate between the colors. 
+Overall it's a simple pie chart with all the information around each part so that you do not have to search for the information far from the plot and it is very easy to understand.   
 
 
