@@ -11,7 +11,7 @@
 
 <meta name="author" content="Nadia Almeida Ferreira" />
 
-<meta name="date" content="2025-02-06" />
+<meta name="date" content="2025-02-07" />
 
 <title>Plotting Assignment</title>
 
@@ -352,13 +352,13 @@ display: none;
 
 <h1 class="title toc-ignore">Plotting Assignment</h1>
 <h4 class="author">Nadia Almeida Ferreira</h4>
-<h4 class="date">2025-02-06</h4>
+<h4 class="date">2025-02-07</h4>
 
 </div>
 
 
-<div id="data-wrangling" class="section level2">
-<h2>Data Wrangling</h2>
+<div id="data-wrangling" class="section level1">
+<h1>Data Wrangling</h1>
 <pre class="r"><code>library(tidyverse)
 data_whole&lt;- read_csv(&quot;../data/DATASET_Where are the Women An Overview of Female Representation in Popular Contemporary Animation Feature Films.csv&quot;)</code></pre>
 <pre class="r"><code>#removing NA rows and renaming columns
@@ -380,10 +380,10 @@ data_good_plot&lt;- data_good_plot |&gt;
   mutate(Percentage = n/ sum(n) * 100,
          y_position = cumsum(Percentage) - 0.5 * Percentage) #to align the percentages in the pie chart</code></pre>
 </div>
-<div id="plots" class="section level2">
-<h2>Plots</h2>
-<div id="bad-plot" class="section level3">
-<h3>Bad Plot</h3>
+<div id="plots" class="section level1">
+<h1>Plots</h1>
+<div id="bad-plot" class="section level2">
+<h2>Bad Plot</h2>
 <pre class="r"><code>library(ggplot2)
 plot_bad &lt;- ggplot(data_cleaned, 
                    aes(x = Movie, y = Votes)) +
@@ -414,8 +414,8 @@ female representation in movies and whether or not those movies pass the
 Bechdel Test (two female characters interacting and talking about
 anything other than men).</p>
 </div>
-<div id="good-plot" class="section level3">
-<h3>Good Plot</h3>
+<div id="good-plot" class="section level2">
+<h2>Good Plot</h2>
 <pre class="r"><code>library(dplyr)
 library(viridis)</code></pre>
 <pre><code>## Loading required package: viridisLite</code></pre>
@@ -448,6 +448,9 @@ colors. Overall it’s a simple pie chart with all the information around
 each part so that you do not have to search for the information far from
 the plot and it is very easy to understand.</p>
 </div>
+</div>
+<div id="opinion-on-grade" class="section level1">
+<h1>Opinion on Grade</h1>
 </div>
 
 

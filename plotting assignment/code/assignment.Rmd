@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Data Wrangling
+# Data Wrangling
 
 ```{r message=FALSE, warning=FALSE}
 
@@ -44,9 +44,9 @@ data_good_plot<- data_good_plot |>
 
 
 
-## Plots
+# Plots
 
-### Bad Plot
+## Bad Plot
 ```{r bad plot}
 library(ggplot2)
 plot_bad <- ggplot(data_cleaned, 
@@ -68,7 +68,7 @@ The color of the bars is also a bad choice because they basically blend in with 
 Overall using all movies and therefore having 260 bars is too much. Furthermore, just showing how many votes each movie has on IMDb is not what is relevant in this data set as it is assessing female representation in movies and whether or not those movies pass the Bechdel Test (two female characters interacting and talking about anything other than men). 
 
 
-### Good Plot
+## Good Plot
 
 
 
@@ -100,5 +100,8 @@ What makes this a good plot for starters is that relevant data from the analysis
 Also good is that each piece of the pie chart is accompanied by a label of what it represents and its percentage so that all the relevant information is easily found without having to look around for it.
 Another good feature of this chart is that by using a color palette from the viridis package it can be printed in black and white and color blind people can easily differentiate between the colors. 
 Overall it's a simple pie chart with all the information around each part so that you do not have to search for the information far from the plot and it is very easy to understand.   
+
+# Opinion on Grade 
+I think that the bad plot is pretty horrible and the good plot is nice therefore I'd say a 5 for the plotting would be fair.
 
 
